@@ -1,0 +1,4 @@
+meta.name: OpenPHT Remote			
+meta.author: Aaron Kirschen (with borrowed code from Unified Remote)
+meta.description: Control openPHT
+meta.tags.category: media

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout onlaunch="launch" onVolumeUp="volumeUp" onVolumeDown="volumeDown" color="#FF9500">
+
+
+		<row weight="2" >
+			<button text="Alphabet Search" color="#333333" />
+		</row>	
+			<row weight="2">
+				<button text="A" ontap="letterA" />
+				<button text="B" ontap="letterB" />
+				<button text="C" ontap="letterC" />
+				<button text="D" ontap="letterD" />
+				<button text="E" ontap="letterE" />
+				<button text="F" ontap="letterF" />
+				<button text="G" ontap="letterG" />
+				<button text="H" ontap="letterH" />
+				<button text="I" ontap="letterI" />
+				<button text="J" ontap="letterJ" />
+				<button text="K" ontap="letterK" />
+				<button text="L" ontap="letterL" />
+				<button text="M" ontap="letterM" />
+			</row>
+			<row weight="2">
+				<button text="N" ontap="letterN" />
+				<button text="O" ontap="letterO" />
+				<button text="P" ontap="letterP" />
+				<button text="Q" ontap="letterQ" />
+				<button text="R" ontap="letterR" />
+				<button text="S" ontap="letterS" />
+				<button text="T" ontap="letterT" />
+				<button text="U" ontap="letterU" />
+				<button text="V" ontap="letterV" />
+				<button text="W" ontap="letterW" />
+				<button text="X" ontap="letterX" />
+				<button text="Y" ontap="letterY" />
+				<button text="Z" ontap="letterZ" />
+			</row>
+		
+		
+		<row weight="2" >
+			<button text="Queue Control" color="#333333" />
+		</row>	
+			<row weight="2" >
+		  <!--  <button text="PLAY ALL" ontap="playAll" /> 	-->
+				<button text="PREVIOUS" ontap="previousTrack" />
+				<button text="NEXT" ontap="nextTrack" />
+			</row>
+			
+			
+		<row weight="2" >
+			<button text="Settings" color="#333333" />
+		</row>	
+				<row weight="3" >
+					<button weight="6" image="../Images/monitorLeft.png"  ontap="monitorLeft" scale="fit" />
+					<button weight="6" image="../Images/monitorRight.png" ontap="monitorRight" scale="fit" />
+					<button weight="5" image="../Images/fullScreen.png" ontap="fullScreen" scale="fit" />
+					<button weight="5" image="../Images/binoculars.png" ontap="viewMode" scale="fit" />
+					<button weight="4" image="../Images/audioTrack.png" ontap="audioTrack" scale="fit" />
+					<button weight="4" image="../Images/subtitles.png" ontap="subtitleTrack" scale="fit"  />
+					<button weight="6" icon="vdown" ontap="volumeDown" />
+					<button weight="6" icon="vup" ontap="volumeUp" />
+				</row>
+				
+				
+		<row weight="2" >
+			<button text="Navigation" color="#333333" />
+		</row>	
+				
+				<row  weight="3" >
+					<button icon="back" ontap="back" />
+					<button weight="1" color="#525252" icon="up" ontap="up" />
+					<button text="WATCHED" ontap="markWatched" />
+				</row>
+				
+				<row weight="3" >
+					<button weight="1" color="#525252" icon="left" ontap="left" />
+					<button weight="1" color="#525252" icon="select" ontap="select" />
+					<button weight="1"  color="#525252" icon="right" ontap="right" />
+				</row>
+				
+				<row weight="3" >
+					<button icon="previous" ontap="previous" />
+					<button weight="1" color="#525252" icon="down" ontap="down" />
+					<button icon="next" ontap="next" />
+				</row>
+				
+				
+		<row weight="2" >
+			<button text="Playback" color="#333333" />
+		</row>	
+				<row  weight="4" >
+				
+					<button weight="6" icon="rwd" ontap="rewind" />
+					<button weight="6" image="../Images/arrowLeft.png" ontap="jumpBackBig" scale="fit" />
+					<button weight="8" icon="previous" ontap="jumpBack30" />
+					<button weight="8" icon="arrowleft" ontap="jumpBack15" />
+<!-- 					<button weight="8" icon="left" ontap="jumpBackSmallest" /> -->
+					<button weight="9" icon="pause" ontap="play_current" />
+<!-- 					<button weight="8" icon="right" ontap="jumpForwardSmallest" /> -->
+					<button weight="8" icon="arrowright" ontap="jumpForward15" />
+					<button weight="8" icon="next" ontap="jumpForward30" />
+					<button weight="6" image="../Images/arrowRight.png" ontap="jumpForwardBig" scale="fit" />
+					<button weight="6" icon="ff" ontap="fastForward" />
+				</row>
+				
+				<row weight="2" >
+					<button text="Menu" ontap="menu" />
+					<button text="Home" ontap="home" />
+					<button text="OSD" ontap="osd" />
+				</row>
+</layout>
