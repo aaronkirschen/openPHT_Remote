@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout onlaunch="launch" onVolumeUp="volumeUp" onVolumeDown="volumeDown" color="#FF9500">
-	
+
+
 		<row weight="2" >
 			<button text="Power" color="#333333" />
 		</row>	
 			<row weight="2" >
-		  <!--  <button text="PLAY ALL" ontap="playAll" /> 	-->
 				<button icon="power" text="SHUTDOWN" ontap="shutdown" />
 				<button text="RESTART" icon="rotateleft" ontap="restart" />
 			</row>
-	
-	
+
+
+
 		<row weight="2" >
 			<button text="Alphabet Search" color="#333333" />
 		</row>	
@@ -44,12 +45,13 @@
 				<button text="Y" ontap="letterY" />
 				<button text="Z" ontap="letterZ" />
 			</row>
-	
-			
+		
+
 		<row weight="2" >
 			<button text="Settings" color="#333333" />
 		</row>	
 				<row weight="3" >
+
 					<button weight="6" image="../Images/monitorLeft.png"  ontap="monitorLeft" scale="fit" />
 					<button weight="6" image="../Images/monitorRight.png" ontap="monitorRight" scale="fit" />
 					<button weight="5" image="../Images/fullScreen.png" ontap="fullScreen" scale="fit" />
