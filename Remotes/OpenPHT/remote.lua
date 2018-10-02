@@ -33,6 +33,12 @@ actions.launch = function()
 	end
 end
 
+--@help Restart OpenPHT
+actions.restart = function()
+	actions.shutdown();
+	os.sleep(500);
+	actions.launch();
+end
 
 --@help Shutdown OpenPHT
 actions.shutdown = function()
