@@ -44,17 +44,7 @@
 				<button text="Y" ontap="letterY" />
 				<button text="Z" ontap="letterZ" />
 			</row>
-		
-		
-		<row weight="2" >
-			<button text="Queue Control" color="#333333" />
-		</row>	
-			<row weight="2" >
-		  <!--  <button text="PLAY ALL" ontap="playAll" /> 	-->
-				<button text="PREVIOUS" ontap="previousTrack" />
-				<button text="NEXT" ontap="nextTrack" />
-			</row>
-			
+	
 			
 		<row weight="2" >
 			<button text="Settings" color="#333333" />
