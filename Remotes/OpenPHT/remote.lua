@@ -34,6 +34,11 @@ actions.launch = function()
 end
 
 
+--@help Shutdown OpenPHT
+actions.shutdown = function()
+	win.kill("OpenPHT.exe");
+end
+
 --@help Navigate left
 actions.left = function ()
 	actions.switch();
