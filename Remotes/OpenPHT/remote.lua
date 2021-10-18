@@ -208,24 +208,6 @@ end
 
 
 
-
-
-
-
--- --@help Jump backwards seven seconds
--- actions.jumpBackSmallest = function ()
-	-- actions.switch();
-	-- kb.press("backspace")
--- end
--- --@help Jump forward eight seconds
--- actions.jumpForwardSmallest = function ()
-	-- actions.right()
-	-- os.sleep(200);
-	-- actions.left()
-	-- os.sleep(200);	
-	-- actions.jumpBackSmallest()
--- end
-
 --@help Jump backwards fifteen seconds
 actions.jumpBack15 = function ()
 	actions.left()
