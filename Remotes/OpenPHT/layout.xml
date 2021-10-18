@@ -95,9 +95,7 @@
 					<button weight="6" image="../Images/arrowLeft.png" ontap="jumpBackBig" scale="fit" />
 					<button weight="8" icon="previous" ontap="jumpBack30" />
 					<button weight="8" icon="arrowleft" ontap="jumpBack15" />
-<!-- 					<button weight="8" icon="left" ontap="jumpBackSmallest" /> -->
 					<button weight="9" icon="pause" ontap="play_current" />
-<!-- 					<button weight="8" icon="right" ontap="jumpForwardSmallest" /> -->
 					<button weight="8" icon="arrowright" ontap="jumpForward15" />
 					<button weight="8" icon="next" ontap="jumpForward30" />
 					<button weight="6" image="../Images/arrowRight.png" ontap="jumpForwardBig" scale="fit" />
