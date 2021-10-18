@@ -6,11 +6,9 @@
 			<button text="Power" color="#333333" />
 		</row>	
 			<row weight="2" >
-				<button icon="power" text="SHUTDOWN" ontap="shutdown" />
-				<button text="RESTART" icon="rotateleft" ontap="restart" />
+				<button icon="power" ontap="shutdown" />
+				<button icon="rotateleft" ontap="restart" />
 			</row>
-
-
 
 		<row weight="2" >
 			<button text="Alphabet Search" color="#333333" />
@@ -51,11 +49,10 @@
 			<button text="Settings" color="#333333" />
 		</row>	
 				<row weight="3" >
-
-					<button weight="6" image="../Images/monitorLeft.png"  ontap="monitorLeft" scale="fit" />
-					<button weight="6" image="../Images/monitorRight.png" ontap="monitorRight" scale="fit" />
-					<button weight="5" image="../Images/fullScreen.png" ontap="fullScreen" scale="fit" />
-					<button weight="5" image="../Images/binoculars.png" ontap="viewMode" scale="fit" />
+					<button weight="6" icon="docleft"  ontap="monitorLeft" />
+					<button weight="6" icon="docright" ontap="monitorRight" />
+					<button weight="5" icon="fullscreen" ontap="fullScreen" />
+					<button weight="5" icon="camera" ontap="viewMode" />
 					<button weight="4" image="../Images/audioTrack.png" ontap="audioTrack" scale="fit" />
 					<button weight="4" image="../Images/subtitles.png" ontap="subtitleTrack" scale="fit"  />
 					<button weight="6" icon="vdown" ontap="volumeDown" />
@@ -90,15 +87,14 @@
 			<button text="Playback" color="#333333" />
 		</row>	
 				<row  weight="4" >
-				
 					<button weight="6" icon="rwd" ontap="rewind" />
-					<button weight="6" image="../Images/arrowLeft.png" ontap="jumpBackBig" scale="fit" />
-					<button weight="8" icon="previous" ontap="jumpBack30" />
+					<button weight="6" icon="arrowleft"  ontap="jumpBackBig" />
+					<button weight="8" icon="arrowleft" ontap="jumpBack30" />
 					<button weight="8" icon="arrowleft" ontap="jumpBack15" />
 					<button weight="9" icon="pause" ontap="play_current" />
 					<button weight="8" icon="arrowright" ontap="jumpForward15" />
-					<button weight="8" icon="next" ontap="jumpForward30" />
-					<button weight="6" image="../Images/arrowRight.png" ontap="jumpForwardBig" scale="fit" />
+					<button weight="8" icon="arrowright" ontap="jumpForward30" />
+					<button weight="6" icon="arrowright" ontap="jumpForwardBig" />
 					<button weight="6" icon="ff" ontap="fastForward" />
 				</row>
 				
